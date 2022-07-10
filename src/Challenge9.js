@@ -19,7 +19,7 @@ import React, { useEffect, useState } from 'react'
 
 // A little helper function for making a reply
 const getRandomMessage = () => {
-    const MESSAGES = ["Hey there", "I like cats", "What's up?", "I agree!", "I love this so much"];
+    const MESSAGES = ["Hey there", "You're right", "What's this?", "I agree!", "I love this so much"];
     return MESSAGES[Math.floor(Math.random() * MESSAGES.length)];
 }
 
